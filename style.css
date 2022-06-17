@@ -1,0 +1,46 @@
+body {
+  background-color: aquamarine;
+}
+#app {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.panel {
+  width: 40%;
+  background-color: azure;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.panel-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.panel-body {
+  margin-top: 0px;
+}
+.panel-body > div {
+  margin: 1px;
+}
+#todo-title {
+  text-align: center;
+}
+
+#todo-subtitle {
+  text-align: center;
+  color: #566573;
+}
+
+.panel-input {
+  display: flex;
+  justify-content: center;
+  height: 2em;
+}
+
+/* line-height: 28px; */
